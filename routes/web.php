@@ -309,3 +309,5 @@ Route::post('importExcel','ControllerImport@importExcel')->name('import');
 Route::post('importExcel1','ControllerImport@importExcel1')->name('import1');
 // test import file by  phpoffice/phpspreadsheet
 Route::post('importExcel2','ControllerImport@importExcel2')->name('import2');
+// get option file
+Route::post('getOptionFile','ControllerImport@getOptionFile')->name('option');

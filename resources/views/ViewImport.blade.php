@@ -8,12 +8,11 @@
 </head>
 <body>
     <div style="float: left; text-align: left">
-        <form action="{{ route('import1') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('option') }}" method="POST" enctype="multipart/form-data">
             @csrf
             Import file excel: <input type="file" name="file" class="form-control">
             <br>
             <button class="btn btn-success" style="margin-top: 20px">Import User Data</button>
-          
         </form>
     </div>
 </body>
